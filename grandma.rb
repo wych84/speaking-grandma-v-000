@@ -3,7 +3,8 @@ def speak_to_grandma(phrase="Grandma, do you bake?")
   if phrase.upcase
     puts "NO, NOT SINCE 1938!"
   elsif phrase.downcase
-  
+    puts "HUH?! SPEAK UP, SONNY!"
+  else
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
